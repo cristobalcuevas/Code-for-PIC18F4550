@@ -5635,9 +5635,26 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 1 "./configuracion.h" 1
 # 9 "main.c" 2
 
+# 1 "./lcd_libreria.h" 1
+# 13 "./lcd_libreria.h"
+void lcd_Init(void);
+void lcd_Comando(char cmd);
+void lcd_XY(int x, int y);
+void lcd_Caracter(char dat);
+void lcd_Cadena(char *pal);
+void selectorRegistro(int rs);
+# 10 "main.c" 2
+
 
 void main(void) {
+    TRISDbits.RD0 = 0;
+    lcd_Init();
+    lcd_XY(1,8);
+    lcd_Caracter('W');
+    lcd_XY(1,0);
+    lcd_Caracter('e');
+    lcd_XY(0,0);
+    lcd_Cadena("Hola mundo");
     while(1){
-
     }
 }

@@ -3,8 +3,8 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>timer_16bits</name>
-            <creation-uuid>7a7e9e58-67f4-492e-9552-7c94cf47c004</creation-uuid>
+            <name>timer0_8bits</name>
+            <creation-uuid>a4154074-c458-47f2-af62-82e906a55850</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
