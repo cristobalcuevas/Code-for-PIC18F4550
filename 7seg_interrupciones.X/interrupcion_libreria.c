@@ -6,8 +6,9 @@
  */
 
 #include "interrupcion_libreria.h"
+#include "configuracion.h"
 
-int x = 0;
+uint8_t x = 0;
 
 void INT_Init(void){
     TRISBbits.RB0 = 1; // Configurar RB0 como entrada

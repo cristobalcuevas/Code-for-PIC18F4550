@@ -12,7 +12,7 @@
 #include "lcd_libreria.h"
 
 
-extern int sec, sec_d, min, min_d, hor, hor_d;
+extern uint8_t sec, sec_d, min, min_d, hor, hor_d;
 
 void main(void) {
     TRISDbits.RD0 = 0; // RD0 configurado como salida

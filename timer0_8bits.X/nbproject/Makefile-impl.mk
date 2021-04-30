@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=timer_8bits.X
+PROJECTNAME=timer0_8bits.X
 
 # Active Configuration
 DEFAULTCONF=default

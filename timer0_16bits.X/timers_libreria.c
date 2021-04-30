@@ -17,7 +17,6 @@
  * TMR0L = 46003 -> Prescaler 256
 */
 void Timer0_Init(void){
-    
     T0CONbits.TMR0ON = 1; // Habilitar Timer 0
     T0CONbits.T0CS = 0; // En modo temporizador
     T0CONbits.T08BIT = 0; // Timer 0 en 16 bits
@@ -36,7 +35,4 @@ void Timer0_Init(void){
     INTCONbits.TMR0IF = 0; // LImpiar flag del timer 0
     
     INTCON2bits.TMR0IP = 1; // Prioridad alta
-    
-    
-    
 }

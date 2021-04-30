@@ -6,8 +6,9 @@
  */
 
 #include "interrupcion_libreria.h"
+#include "configuracion.h"
 
-int sec = 0, sec_d = 0, min = 0, min_d = 0, hor = 0, hor_d = 0;
+uint8_t sec = 0, sec_d = 0, min = 0, min_d = 0, hor = 0, hor_d = 0;
 
 void INT_Init(void){
     RCONbits.IPEN = 1; // Habilitar prioridades

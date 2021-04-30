@@ -9,6 +9,7 @@
 #define	CONFIGURACION_H
 
 #define _XTAL_FREQ 20000000UL // Long Unsigned
+#include <stdint.h>
 
 #endif	/* CONFIGURACION_H */
 
