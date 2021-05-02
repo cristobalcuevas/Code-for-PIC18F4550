@@ -5630,7 +5630,7 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 
 void lcd_Init(void);
 void lcd_Comando(char cmd);
-void lcd_XY(int x, int y);
+void lcd_XY(char x, char y);
 void lcd_Caracter(char dat);
 void lcd_Cadena(char *pal);
 void selectorRegistro(int rs);
@@ -5664,7 +5664,7 @@ void lcd_Comando(char cmd){
     selectorRegistro(0);
 }
 
-void lcd_XY(int x, int y){
+void lcd_XY(char x, char y){
     if(x > 0){
         lcd_Comando(0xC0+y);
     }

@@ -5639,7 +5639,7 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 13 "./lcd_libreria.h"
 void lcd_Init(void);
 void lcd_Comando(char cmd);
-void lcd_XY(int x, int y);
+void lcd_XY(char x, char y);
 void lcd_Caracter(char dat);
 void lcd_Cadena(char *pal);
 void selectorRegistro(int rs);

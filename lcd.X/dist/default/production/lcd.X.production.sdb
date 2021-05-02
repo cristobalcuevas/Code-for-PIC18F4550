@@ -27,7 +27,7 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"4 C:\Users\Cristobal\Desktop\PIC18F4550\lcd.X\lcd_libreria.c
+"4 C:\Users\Cristobal\Desktop\PIC18F4550\LCD.X\lcd_libreria.c
 [v _lcd_Init lcd_Init `(v  1 e 1 0 ]
 "18
 [v _lcd_Comando lcd_Comando `(v  1 e 1 0 ]
@@ -39,7 +39,7 @@
 [v _lcd_Cadena lcd_Cadena `(v  1 e 1 0 ]
 "54
 [v _selectorRegistro selectorRegistro `(v  1 e 1 0 ]
-"12 C:\Users\Cristobal\Desktop\PIC18F4550\lcd.X\main.c
+"12 C:\Users\Cristobal\Desktop\PIC18F4550\LCD.X\main.c
 [v _main main `(v  1 e 1 0 ]
 "3263 D:/Archivos de programa/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
 [v _LATD LATD `VEuc  1 e 1 @3980 ]
@@ -87,16 +87,18 @@
 ]
 [u S42 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
 [v _TRISDbits TRISDbits `VES42  1 e 1 @3989 ]
-"12 C:\Users\Cristobal\Desktop\PIC18F4550\lcd.X\main.c
+"12 C:\Users\Cristobal\Desktop\PIC18F4550\LCD.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "23
 } 0
-"28 C:\Users\Cristobal\Desktop\PIC18F4550\lcd.X\lcd_libreria.c
+"28 C:\Users\Cristobal\Desktop\PIC18F4550\LCD.X\lcd_libreria.c
 [v _lcd_XY lcd_XY `(v  1 e 1 0 ]
 {
-[v lcd_XY@x x `i  1 p 2 4 ]
-[v lcd_XY@y y `i  1 p 2 6 ]
+[v lcd_XY@x x `uc  1 a 1 wreg ]
+[v lcd_XY@x x `uc  1 a 1 wreg ]
+[v lcd_XY@y y `uc  1 p 1 4 ]
+[v lcd_XY@x x `uc  1 a 1 5 ]
 "35
 } 0
 "4

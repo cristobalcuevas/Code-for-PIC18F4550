@@ -19,18 +19,16 @@ void main(void) {
     INT_Init();
     lcd_Init();
     Timer0_Init();
-    
     while(1){
-        
         switch(x){
             case 1:
-              lcd_XY(0,0);
-              lcd_Cadena("Hola");
-              T0CONbits.TMR0ON = 1; // Habilitar Timer 0 e inicializa la cuentas
-              break;
+                lcd_XY(0,0);
+                lcd_Cadena("Hola");
+                T0CONbits.TMR0ON = 1; // Habilitar Timer 0 e inicializa la cuentas
+                break;
             case 2:
                 lcd_Comando(0x01);
-                T0CONbits.TMR0ON = 0; // Desabilitar Timer 0
+                T0CONbits.TMR0ON = 0; // Deshabilitar Timer 0
                 LATDbits.LATD0 = 0;
                 x = 0;
             default:
